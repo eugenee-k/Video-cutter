@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+
+.container {
+	margin-top: 5% !important;
+}
+
+.header {
+	font-size: 30px; 
+	display: block; 
+	color: #464646; 
+	text-decoration: none; 
+	margin-top: 1%; 
+	text-align: center;
+}
+
+.share {
+	font-size: 14px; 
+	display: block; 
+	color: #464646; 
+	margin: 3%; 
+	text-align: center;
+}

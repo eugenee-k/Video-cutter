@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Video Cutter{% endblock %}
+
+{% block page_content %}
+
+<a href="/" class="header"><b>Video Cutter</b></a>
+<b class="share">Share video</b>
+<div class="container">
+    <video id="video_1" class="video-js vjs-default-skin" style="margin: auto; margin-bottom: 40px; width: 40%; height: auto;" controls preload="auto" width="500" height="200" <source src="data/cutted/{{fileid}}" type="video/mp4" />
+    </video>
+    <a style="margin-bottom: 3px;" href="data/cutted/{{fileid}}" download><b class="share">download</b></a>
+    <div class="sharethis-inline-share-buttons"></div>
+</div>
+
+<script src="//platform-api.sharethis.com/js/sharethis.js#property=5b30fa345a9f7800116e2e44&product=inline-share-buttons"></script>
+
+{% endblock %}
