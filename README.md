@@ -7,7 +7,8 @@ Flask-jQuery video cutter
 
 $ sudo -s
 
-# download and install anaconda https://www.anaconda.com/download/#linux
+download and install anaconda https://www.anaconda.com/download/#linux
+
 $ bash Anaconda2-5.2.0-Linux-x86_64.sh
 
 $ conda install ffmpeg -c conda-forge
